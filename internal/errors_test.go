@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 func TestErrorWithLog(t *testing.T) {

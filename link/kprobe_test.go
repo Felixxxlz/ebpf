@@ -8,10 +8,10 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/asm"
+	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 // Global symbol, present on all tested kernels.

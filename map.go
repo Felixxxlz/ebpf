@@ -11,10 +11,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/btf"
+	"github.com/Felixxxlz/ebpf/internal"
+	"github.com/Felixxxlz/ebpf/internal/sys"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 // Errors returned by Map and MapIterator methods.

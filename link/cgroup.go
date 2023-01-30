@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cilium/ebpf"
+	"github.com/Felixxxlz/ebpf"
 )
 
 type cgroupAttachFlags uint32

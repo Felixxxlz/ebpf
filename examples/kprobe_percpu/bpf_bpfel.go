@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cilium/ebpf"
+	"github.com/Felixxxlz/ebpf"
 )
 
 // loadBpf returns the embedded CollectionSpec for bpf.

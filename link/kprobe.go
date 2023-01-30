@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/internal/sys"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 var (

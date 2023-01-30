@@ -3,9 +3,9 @@ package link
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/btf"
+	"github.com/Felixxxlz/ebpf/internal/sys"
 )
 
 type tracing struct {

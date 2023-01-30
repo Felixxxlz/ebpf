@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 // ErrorWithLog returns an error that includes logs from the
