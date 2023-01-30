@@ -3,9 +3,9 @@ package link
 import (
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/internal"
+	"github.com/Felixxxlz/ebpf/internal/testutils"
 )
 
 func TestFreplace(t *testing.T) {

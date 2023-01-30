@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/asm"
+	"github.com/Felixxxlz/ebpf/internal"
+	"github.com/Felixxxlz/ebpf/internal/sys"
+	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 	qt "github.com/frankban/quicktest"
 )
 

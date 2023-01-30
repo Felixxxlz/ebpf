@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/internal/testutils"
 )
 
 var mapTypeMinVersion = map[ebpf.MapType]string{

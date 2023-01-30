@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
+	"github.com/Felixxxlz/ebpf/asm"
 )
 
 const maxTypeDepth = 32

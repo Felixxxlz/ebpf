@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/internal"
 )
 
 var (
@@ -75,7 +75,7 @@ type UprobeOptions struct {
 
 // To open a new Executable, use:
 //
-//  OpenExecutable("/bin/bash")
+//	OpenExecutable("/bin/bash")
 //
 // The returned value can then be used to open Uprobe(s).
 func OpenExecutable(path string) (*Executable, error) {
@@ -178,13 +178,13 @@ func (ex *Executable) offset(symbol string) (uint64, error) {
 // given symbol starts executing in the given Executable.
 // For example, /bin/bash::main():
 //
-//  ex, _ = OpenExecutable("/bin/bash")
-//  ex.Uprobe("main", prog, nil)
+//	ex, _ = OpenExecutable("/bin/bash")
+//	ex.Uprobe("main", prog, nil)
 //
 // When using symbols which belongs to shared libraries,
 // an offset must be provided via options:
 //
-//  up, err := ex.Uprobe("main", prog, &UprobeOptions{Offset: 0x123})
+//	up, err := ex.Uprobe("main", prog, &UprobeOptions{Offset: 0x123})
 //
 // Losing the reference to the resulting Link (up) will close the Uprobe
 // and prevent further execution of prog. The Link must be Closed during
@@ -210,13 +210,13 @@ func (ex *Executable) Uprobe(symbol string, prog *ebpf.Program, opts *UprobeOpti
 // Uretprobe attaches the given eBPF program to a perf event that fires right
 // before the given symbol exits. For example, /bin/bash::main():
 //
-//  ex, _ = OpenExecutable("/bin/bash")
-//  ex.Uretprobe("main", prog, nil)
+//	ex, _ = OpenExecutable("/bin/bash")
+//	ex.Uretprobe("main", prog, nil)
 //
 // When using symbols which belongs to shared libraries,
 // an offset must be provided via options:
 //
-//  up, err := ex.Uretprobe("main", prog, &UprobeOptions{Offset: 0x123})
+//	up, err := ex.Uretprobe("main", prog, &UprobeOptions{Offset: 0x123})
 //
 // Losing the reference to the resulting Link (up) will close the Uprobe
 // and prevent further execution of prog. The Link must be Closed during

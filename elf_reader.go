@@ -12,10 +12,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/asm"
+	"github.com/Felixxxlz/ebpf/btf"
+	"github.com/Felixxxlz/ebpf/internal"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 // elfCode is a convenience to reduce the amount of arguments that have to

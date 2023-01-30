@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 const (

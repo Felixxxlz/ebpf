@@ -9,7 +9,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 var (

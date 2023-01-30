@@ -7,11 +7,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/Felixxxlz/ebpf"
+	"github.com/Felixxxlz/ebpf/asm"
+	"github.com/Felixxxlz/ebpf/internal"
+	"github.com/Felixxxlz/ebpf/internal/sys"
+	"github.com/Felixxxlz/ebpf/internal/unix"
 )
 
 func init() {
@@ -168,9 +168,9 @@ func haveProgramType(pt ebpf.ProgramType) error {
 // function to a specified program type.
 // Return values have the following semantics:
 //
-//   err == nil: The feature is available.
-//   errors.Is(err, ebpf.ErrNotSupported): The feature is not available.
-//   err != nil: Any errors encountered during probe execution, wrapped.
+//	err == nil: The feature is available.
+//	errors.Is(err, ebpf.ErrNotSupported): The feature is not available.
+//	err != nil: Any errors encountered during probe execution, wrapped.
 //
 // Note that the latter case may include false negatives, and that program creation may
 // succeed despite an error being returned.
