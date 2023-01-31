@@ -8,10 +8,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/epoll"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/epoll"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 var (

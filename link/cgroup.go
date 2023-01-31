@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 type cgroupAttachFlags uint32

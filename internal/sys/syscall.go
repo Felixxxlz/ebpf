@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // BPF wraps SYS_BPF.

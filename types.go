@@ -1,7 +1,7 @@
 package ebpf
 
 import (
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 //go:generate stringer -output types_string.go -type=MapType,ProgramType,PinType

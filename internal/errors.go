@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // ErrorWithLog returns an error that includes logs from the

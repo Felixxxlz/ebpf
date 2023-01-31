@@ -3,9 +3,9 @@ package btf
 import (
 	"bytes"
 
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/sys"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/sys"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // info describes a BTF object.

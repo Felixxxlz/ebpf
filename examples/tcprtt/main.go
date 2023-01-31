@@ -27,14 +27,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/link"
-	"github.com/Felixxxlz/ebpf/ringbuf"
-	"github.com/Felixxxlz/ebpf/rlimit"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/link"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/ringbuf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/rlimit"
 )
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/Felixxxlz/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS -type event bpf tcprtt.c -- -I../headers
+//go:generate go run git.in.chaitin.net/creamcone_vendor/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS -type event bpf tcprtt.c -- -I../headers
 
 func main() {
 	stopper := make(chan os.Signal, 1)

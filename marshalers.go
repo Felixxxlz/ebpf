@@ -11,8 +11,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/sys"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/sys"
 )
 
 // marshalPtr converts an arbitrary value into a pointer suitable

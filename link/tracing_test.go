@@ -3,9 +3,9 @@ package link
 import (
 	"testing"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/testutils"
 )
 
 func TestFreplace(t *testing.T) {

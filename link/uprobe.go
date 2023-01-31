@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
 )
 
 var (

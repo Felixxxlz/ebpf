@@ -1,6 +1,6 @@
 contact_links:
   - name: Questions
-    url: https://github.com/Felixxxlz/ebpf/discussions/categories/q-a
+    url: https://git.in.chaitin.net/creamcone_vendor/ebpf/discussions/categories/q-a
     about: Please ask and answer questions here.
   - name: Slack
     url: https://cilium.slack.com/messages/ebpf-go

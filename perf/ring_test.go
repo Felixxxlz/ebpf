@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 func TestRingBufferReader(t *testing.T) {

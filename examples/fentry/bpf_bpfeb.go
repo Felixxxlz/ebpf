@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 type bpfEvent struct {

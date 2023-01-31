@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/testutils"
 )
 
 func TestObjNameCharacters(t *testing.T) {

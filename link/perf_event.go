@@ -11,11 +11,11 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/sys"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/sys"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // Getting the terminology right is usually the hardest part. For posterity and

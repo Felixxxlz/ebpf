@@ -5,7 +5,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/testutils"
 )
 
 func TestLoadingSpec(t *testing.T) {

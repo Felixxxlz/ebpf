@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // Poller waits for readiness notifications from multiple file descriptors.

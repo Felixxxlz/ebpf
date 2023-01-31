@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 func TestSocketFilterAttach(t *testing.T) {

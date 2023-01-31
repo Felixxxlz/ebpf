@@ -9,8 +9,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
 )
 
 // ExtInfos contains ELF section metadata.

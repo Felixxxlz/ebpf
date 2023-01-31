@@ -3,7 +3,7 @@ package link
 import (
 	"fmt"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 // NetNsLink is a program attached to a network namespace.

@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf/btf"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/testutils"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/btf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/testutils"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"

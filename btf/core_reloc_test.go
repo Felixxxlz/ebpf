@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/btf"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/btf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/testutils"
 )
 
 func TestCORERelocationLoad(t *testing.T) {

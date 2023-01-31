@@ -12,10 +12,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/btf"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/btf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // elfCode is a convenience to reduce the amount of arguments that have to

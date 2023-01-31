@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf/internal/testutils"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/testutils"
 	qt "github.com/frankban/quicktest"
 )
 

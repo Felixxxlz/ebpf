@@ -3,7 +3,7 @@ package link
 import (
 	"fmt"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 // TracepointOptions defines additional parameters that will be used

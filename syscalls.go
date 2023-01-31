@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/sys"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/sys"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // ErrNotExist is returned when loading a non-existing map or program.

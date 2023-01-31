@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Felixxxlz/ebpf/rlimit"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/rlimit"
 )
 
 func init() {

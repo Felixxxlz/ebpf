@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 // loadBpf returns the embedded CollectionSpec for bpf.

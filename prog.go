@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/btf"
-	"github.com/Felixxxlz/ebpf/internal"
-	"github.com/Felixxxlz/ebpf/internal/sys"
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/btf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/sys"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 // ErrNotSupported is returned whenever the kernel doesn't support a feature.
@@ -509,7 +509,7 @@ func (p *Program) Test(in []byte) (uint32, []byte, error) {
 // interrupted, and should be set to testing.B.ResetTimer or similar.
 //
 // Note: profiling a call to this function will skew it's results, see
-// https://github.com/Felixxxlz/ebpf/issues/24
+// https://git.in.chaitin.net/creamcone_vendor/ebpf/issues/24
 //
 // This function requires at least Linux 4.12.
 func (p *Program) Benchmark(in []byte, repeat int, reset func()) (uint32, time.Duration, error) {

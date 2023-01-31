@@ -35,8 +35,8 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
 )
 
 // ExampleExtractDistance shows how to attach an eBPF socket filter to

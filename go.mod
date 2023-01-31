@@ -1,4 +1,4 @@
-module github.com/Felixxxlz/ebpf
+module git.in.chaitin.net/creamcone_vendor/ebpf
 
 go 1.17
 

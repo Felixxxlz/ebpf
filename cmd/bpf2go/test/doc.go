@@ -3,4 +3,4 @@
 package test
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/Felixxxlz/ebpf/cmd/bpf2go -cc $BPF_CLANG test ../testdata/minimal.c
+//go:generate go run git.in.chaitin.net/creamcone_vendor/ebpf/cmd/bpf2go -cc $BPF_CLANG test ../testdata/minimal.c

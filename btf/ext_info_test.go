@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
 )
 
 func TestParseExtInfoBigRecordSize(t *testing.T) {

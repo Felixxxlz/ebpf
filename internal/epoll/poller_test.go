@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Felixxxlz/ebpf/internal/unix"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/unix"
 )
 
 func TestPoller(t *testing.T) {

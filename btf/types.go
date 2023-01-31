@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Felixxxlz/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
 )
 
 const maxTypeDepth = 32

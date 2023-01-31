@@ -11,12 +11,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/Felixxxlz/ebpf/link"
-	"github.com/Felixxxlz/ebpf/rlimit"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/link"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/rlimit"
 )
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/Felixxxlz/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS bpf kprobe_percpu.c -- -I../headers
+//go:generate go run git.in.chaitin.net/creamcone_vendor/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS bpf kprobe_percpu.c -- -I../headers
 
 const mapKey uint32 = 0
 

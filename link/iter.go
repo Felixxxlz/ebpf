@@ -5,8 +5,8 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/internal/sys"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal/sys"
 )
 
 type IterOptions struct {

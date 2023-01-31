@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/btf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/btf"
 )
 
 // splitSymbols splits insns into subsections delimited by Symbol Instructions.

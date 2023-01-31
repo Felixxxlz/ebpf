@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Felixxxlz/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
 )
 
 var program = [...]byte{

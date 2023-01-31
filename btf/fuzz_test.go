@@ -10,7 +10,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Felixxxlz/ebpf/internal"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/internal"
 )
 
 func FuzzSpec(f *testing.F) {

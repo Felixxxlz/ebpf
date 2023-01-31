@@ -13,11 +13,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Felixxxlz/ebpf"
-	"github.com/Felixxxlz/ebpf/asm"
-	"github.com/Felixxxlz/ebpf/link"
-	"github.com/Felixxxlz/ebpf/perf"
-	"github.com/Felixxxlz/ebpf/rlimit"
+	"git.in.chaitin.net/creamcone_vendor/ebpf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/asm"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/link"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/perf"
+	"git.in.chaitin.net/creamcone_vendor/ebpf/rlimit"
 )
 
 // Metadata for the eBPF program used in this example.
